@@ -1,0 +1,37 @@
+img{border: 3px soli;
+    width: 180px;
+    heigth: 180px;
+    border-radius: 50%;
+    background: top right;
+    place-content: center;
+}
+.Nantenaina{display:flex;
+}
+body{text-align-last: auto;
+    font-family: A37rial;
+    margin: 0;
+    font-size: 12px;
+    box-sizing: border-box;
+    word-break: break-word;
+    word-wrap: break-word;
+}
+
+.droite{width:40%;
+    background-color: aliceblue;
+    padding:20px;
+}
+.gauche{width:60%;
+background-color: aliceblue;
+padding:20px;
+}
+h3{background-color: darkgrey;
+    text-align: justify;
+    animation: bounce 2s infinite;
+}
+ul{padding-left: 20px;}
+@keyframes bounce {
+0%{transform:translateY(0);}
+50%{transform:translateY(-10px);}
+100%{transform:translateY(0);}
+}
+
